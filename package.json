@@ -23,5 +23,8 @@
   "homepage": "https://github.com/Tonix89/joker#readme",
   "devDependencies": {
     "prettier": "^2.8.6"
+  },
+  "dependencies": {
+    "give-me-a-joke": "^0.5.1"
   }
 }
