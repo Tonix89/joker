@@ -1,0 +1,34 @@
+{
+  "name": "tonix89-joker",
+  "version": "0.2.0",
+  "description": "Applications that tells jokes.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node src/js/joker.test.js",
+    "format": "prettier -w src/**/*.js",
+    "lint": "eslint src/**/*.js",
+    "lint-fix": "eslint src/**/*.js --cache --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tonix89/joker.git"
+  },
+  "keywords": [
+    "wiki"
+  ],
+  "author": "Antonio Arabejo <antonioarabejo@yahoo.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tonix89/joker/issues"
+  },
+  "homepage": "https://github.com/Tonix89/joker#readme",
+  "devDependencies": {
+    "eslint": "^8.36.0",
+    "prettier": "^2.8.6"
+  },
+  "dependencies": {
+    "give-me-a-joke": "^0.5.1",
+    "tonix89-joker": "^0.1.0"
+  }
+}
