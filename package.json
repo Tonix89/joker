@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/Tonix89/joker#readme",
   "devDependencies": {
+    "eslint": "^8.36.0",
     "prettier": "^2.8.6"
   },
   "dependencies": {
